@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "devStart": "nodemon ./bin/www"
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
